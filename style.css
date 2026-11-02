@@ -1,0 +1,189 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    background: #123b2a;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: #ffc107 !important;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 12px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+
+
+.hero-section {
+    height: 100vh;
+    min-height: 550px;
+    background:
+        url("1793220496069.jpg")
+        center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: clamp(35px, 6vw, 65px);
+    font-weight: bold;
+}
+
+.hero-content h2 {
+    color: #ffc107;
+    margin: 15px 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+/* SECTION HEADINGS */
+
+.section-title {
+    color: #14532d;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* INTRODUCTION */
+
+.introduction {
+    line-height: 1.8;
+}
+
+/* DESTINATIONS */
+
+.destination-card {
+    border: none;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.destination-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.destination-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+
+
+.activity-box {
+    background: white;
+    padding: 30px 15px;
+    border-radius: 10px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.activity-box:hover {
+    background: #14532d;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.activity-box i {
+    font-size: 40px;
+    color: #198754;
+}
+
+.activity-box:hover i {
+    color: #ffc107;
+}
+
+.activity-box h5 {
+    margin-top: 15px;
+}
+
+
+.gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
+
+
+
+.booking-card {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+
+.footer {
+    background: #123b2a;
+    color: white;
+    padding: 45px 0 20px;
+}
+
+.footer h4 {
+    color: #ffc107;
+}
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .booking-card {
+        padding: 20px;
+    }
+
+    .gallery-img {
+        height: 200px;
+    }
+
+}
+
